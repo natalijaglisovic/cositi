@@ -388,7 +388,7 @@ if __name__ == "__main__":
             
             np.random.seed(42 + run)
             
-            model = LightFM(loss="bpr", no_components=64, learning_rate=0.01, random_state=42 + run)
+            model = LightFM(loss="logistic", no_components=64, learning_rate=0.01, random_state=42 + run)
             model.fit(interactions_train, epochs=100, num_threads=8, verbose=False)
     
             try:

@@ -7,3 +7,5 @@ umap==0.1.1
 torch==2.6.0
 sklearn==1.6.1
 tqdm==4.67.1
+umap-learn==0.5.4
+hdbscan==0.8.34
